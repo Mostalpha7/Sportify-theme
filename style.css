@@ -1,0 +1,145 @@
+/*MUSTAPHA ABDULMUJEEB CSS STARTS HERE.*/
+
+body{
+   margin: 0;
+}
+.header-container{
+   position: fixed;
+   width: 100%;
+}
+header div{
+   padding: 8px;
+   margin: 0 5px 0 5px;
+}
+.showcase-container{
+   background-image: url(img/headerBackground.jpg);
+   min-height: 350px;
+}
+ul li {
+   list-style: none;
+   margin-left: -70px; 
+   margin: 5px 0;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+a:hover{
+   color: green;
+   font-weight: bold;
+}
+
+.body-container{
+   margin: 35px 60px; 
+   padding: 10px 10px 30px 10px; 
+   background-color:rgb(81, 97, 88); 
+   text-align: center;
+}
+.aLink {
+   font-size: 23px;
+   padding: 10px;
+   border-radius: 50px 50px 50px 50px;
+   background-color: rgb(80, 74, 74);
+}
+.aLink:hover {
+   background-color: rgb(26, 28, 47);
+   color: whitesmoke;
+   font-weight: 100;
+}
+.footer-block{
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Responsivenesss code Starts here*/
+
+@media (max-width: 990px){
+   header .menu{
+      display: none;
+   }
+   header div a:nth-child(1){
+      float: left;
+      width: 90%;
+   }
+   header div span:nth-child(2){
+      padding-bottom: 80px;
+      font-size: 20px;
+   }
+   header div a span:nth-child(1) img {
+      width: 24px;
+      height: 23px;
+   }
+   header div{
+      padding: 2;
+   }
+   header {
+      background-color: rgb(46, 44, 44, 0.7);
+      height: 50px; 
+      padding-top: 20px;   
+   }
+   header div a:nth-child(1){
+      margin: 0 0 0 1.5em;
+   }
+   .footer-block{
+      float: left;
+      width: 30%;
+      margin-left: 20px;
+      margin-bottom: 40px;
+   }
+   .body-container{
+      margin: 0;
+   }
+   @media (max-width: 374px){
+      .footer-block{
+         float: left;
+         width: 60%;
+         margin-left: 20px;
+         margin-bottom: 40px;
+      }
+   }
+   
+}   
+
+
+@media (min-width: 990px){
+   header .null {
+      display: none;
+   }
+   header .menu ul li{
+      display: inline;
+      text-decoration: none;
+      color: white;
+      padding: 0 9px;
+   }
+   header .menu ul {
+      float: right;
+      font-size: 18px;
+      font-weight: 600;
+      padding-top: 18px;
+      margin-right: 90px;
+
+   }
+   header{
+      background-color: rgba(95, 88, 88, 0.5);
+      height: 80px;
+   }
+   header div span:nth-child(2){
+      font-size: 40px;
+   }
+   header div{
+      margin: 0 0 0 60px;
+      padding: 18px 0;
+      float: left;
+   }
+   .footer-block{
+      float: left;
+      width:16.6%;
+      padding: 5px;
+      box-sizing: border-box;
+      margin-bottom: 0;
+      margin: 10px;
+   }
+}
+
+
